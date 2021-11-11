@@ -1,1 +1,25 @@
 /* Add your CSS code below */
+
+a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+time{
+    font-size: 0.9rem !important;
+}
+
+.message{
+    line-height: 35px;
+}
+
+.message:not(:last-child){
+    line-height: 35px;
+    opacity: 0.6;
+}
+
+
+.message:last-child{
+    border-left: 4px solid rgb(29, 103, 214);
+}
