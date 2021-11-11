@@ -1,1 +1,54 @@
 /* Add your own CSS code below */
+.form-fieldset{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fieldset label{
+    margin-bottom: 10px;
+}
+
+.heart {
+    color: #c85308;
+  }
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-around;
+  }
+    
+  .main-article {
+    max-width: 50em;
+    display: flex;
+    flex-direction: column;
+    margin : 20px auto;
+    line-height: 2;
+    text-align: justify;
+  }
+  
+  @media (min-width: 992px) {
+    .hero__title {
+      font-size: 70px;
+    }
+  }
+  
+  @media (min-width: 767px) {
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+      .views {
+        display: flex;
+        align-items: center;
+      }
+      .view-list__item {
+        margin-left: 5%;
+      }
+      .views__all {
+        margin-left: auto;
+      }
+  }
+
+
+
